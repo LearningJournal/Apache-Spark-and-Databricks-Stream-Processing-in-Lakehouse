@@ -6,7 +6,7 @@ This is the central repository for all the materials related to <em>Apache Spark
 
 <div>
 <a href="https://www.udemy.com/course/spark-streaming-using-python/?referralCode=127B048D9EBD2D1278DC">
-<img src="https://drive.google.com/file/d/1Df0TU_h-rcupXCrHitSQcHiviovlJOcZ/view" alt="Apache-Spark-and-Databricks-Stream-Processing-in-Lakehouse" width="300" align="left"> 
+<img src="https://drive.google.com/uc?id=1Df0TU_h-rcupXCrHitSQcHiviovlJOcZ" alt="Apache-Spark-and-Databricks-Stream-Processing-in-Lakehouse" width="300" align="left"> 
 </a>
 
 <h2> Description </h2>
