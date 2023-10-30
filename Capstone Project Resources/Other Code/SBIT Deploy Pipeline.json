@@ -1,0 +1,421 @@
+{
+    "source": 2,
+    "revision": 8,
+    "description": null,
+    "createdBy": {
+        "displayName": "prashant",
+        "url": "https://spsprodsin2.vssps.visualstudio.com/A71783b15-7926-4713-96cb-ad87fe5825aa/_apis/Identities/dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+            }
+        },
+        "id": "dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+        "uniqueName": "prashant@scholarnest.com",
+        "imageUrl": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz",
+        "descriptor": "msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+    },
+    "createdOn": "2023-09-14T05:43:57.723Z",
+    "modifiedBy": {
+        "displayName": "prashant",
+        "url": "https://spsprodsin2.vssps.visualstudio.com/A71783b15-7926-4713-96cb-ad87fe5825aa/_apis/Identities/dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+            }
+        },
+        "id": "dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+        "uniqueName": "prashant@scholarnest.com",
+        "imageUrl": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz",
+        "descriptor": "msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+    },
+    "modifiedOn": "2023-09-14T07:43:02.947Z",
+    "isDeleted": false,
+    "lastRelease": {
+        "id": 15,
+        "name": "Release-6",
+        "artifacts": [],
+        "_links": {},
+        "description": "",
+        "releaseDefinition": {
+            "id": 2,
+            "projectReference": null,
+            "_links": {}
+        },
+        "createdOn": "2023-09-14T09:02:48.520Z",
+        "createdBy": {
+            "displayName": "prashant",
+            "url": "https://spsprodsin2.vssps.visualstudio.com/A71783b15-7926-4713-96cb-ad87fe5825aa/_apis/Identities/dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+            "_links": {
+                "avatar": {
+                    "href": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+                }
+            },
+            "id": "dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+            "uniqueName": "prashant@scholarnest.com",
+            "imageUrl": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz",
+            "descriptor": "msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+        }
+    },
+    "variables": {
+        "DATABRICKS_HOST": {
+            "value": "https://adb-5416464493378122.2.azuredatabricks.net"
+        },
+        "DATABRICKS_TOKEN": {
+            "value": "dapi7c5cf39b86758187f60880e85ef21a95-3"
+        }
+    },
+    "variableGroups": [],
+    "environments": [
+        {
+            "id": 2,
+            "name": "Stage 1",
+            "rank": 1,
+            "owner": {
+                "displayName": "prashant",
+                "url": "https://spsprodsin2.vssps.visualstudio.com/A71783b15-7926-4713-96cb-ad87fe5825aa/_apis/Identities/dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+                    }
+                },
+                "id": "dc0bb5ec-0098-68d8-b066-bc756a4bf213",
+                "uniqueName": "prashant@scholarnest.com",
+                "imageUrl": "https://dev.azure.com/ScholarNest/_apis/GraphProfile/MemberAvatars/msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz",
+                "descriptor": "msa.ZGMwYmI1ZWMtMDA5OC03OGQ4LWIwNjYtYmM3NTZhNGJmMjEz"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 4
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 1
+                }
+            },
+            "deployStep": {
+                "id": 5
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 6
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 2
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": 0
+                        },
+                        "agentSpecification": {
+                            "identifier": "ubuntu-22.04"
+                        },
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": [
+                                {
+                                    "alias": "_SBIT",
+                                    "artifactType": "Build",
+                                    "artifactDownloadMode": "All",
+                                    "artifactItems": []
+                                }
+                            ]
+                        },
+                        "queueId": 54,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": 1,
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "33c63b11-352b-45a2-ba1b-54cb568a29ca",
+                            "version": "0.*",
+                            "name": "Use Python 3.10",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "versionSpec": "3.10",
+                                "disableDownloadFromRegistry": "false",
+                                "allowUnstable": "false",
+                                "githubToken": "",
+                                "addToPath": "true",
+                                "architecture": "x64"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "5e1e3830-fbfb-11e5-aab1-090c92bc4988",
+                            "version": "1.*",
+                            "name": "Extract files ",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "archiveFilePatterns": "**/*.zip",
+                                "destinationFolder": "$(Release.PrimaryArtifactSourceAlias)/Databricks",
+                                "cleanDestinationFolder": "true",
+                                "overwriteExistingFiles": "false",
+                                "pathToSevenZipTool": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Install Databricks CLI",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "pip install databricks-cli",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Deploy Notebooks",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "databricks workspace import_dir --overwrite $(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/ /Shared/",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Run Integration Test for Batch Job",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "JOB_ID=$(databricks jobs create --json '{   \"name\": \"TestRun\",\n    \"max_concurrent_runs\": 1,\n    \"tasks\": [\n        {\n            \"task_key\": \"BatchTest\",\n            \"run_if\": \"ALL_SUCCESS\",\n            \"notebook_task\": {\n                \"notebook_path\": \"/Shared/08-batch-test\",\n                \"base_parameters\": {\n                    \"Environment\": \"qa\"\n                },\n                \"source\": \"WORKSPACE\"\n            },\n            \"job_cluster_key\": \"BatchTest_cluster\",\n            \"timeout_seconds\": 0,\n            \"email_notifications\": {}\n        }\n    ],\n    \"job_clusters\": [\n        {\n            \"job_cluster_key\": \"BatchTest_cluster\",\n            \"new_cluster\": {\n                \"spark_version\": \"12.2.x-scala2.12\",\n                \"spark_conf\": {\n                    \"spark.databricks.delta.preview.enabled\": \"true\",\n                    \"spark.master\": \"local[*, 4]\",\n                    \"spark.databricks.cluster.profile\": \"singleNode\"\n                },\n                \"azure_attributes\": {\n                    \"first_on_demand\": 1,\n                    \"availability\": \"ON_DEMAND_AZURE\",\n                    \"spot_bid_max_price\": -1\n                },\n                \"node_type_id\": \"Standard_DS3_v2\",\n                \"custom_tags\": {\n                    \"ResourceClass\": \"SingleNode\"\n                },\n                \"spark_env_vars\": {\n                    \"PYSPARK_PYTHON\": \"/databricks/python3/bin/python3\"\n                },\n                \"enable_elastic_disk\": true,\n                \"data_security_mode\": \"SINGLE_USER\",\n                \"runtime_engine\": \"STANDARD\",\n                \"num_workers\": 0\n            }\n        }\n    ],\n    \"format\": \"MULTI_TASK\"\n}'| jq '.job_id')\n\nRUN_ID=$(databricks jobs run-now --job-id $JOB_ID | jq '.run_id')\n\njob_status=\"PENDING\"\n   while [ $job_status = \"RUNNING\" ] || [ $job_status = \"PENDING\" ]\n   do\n     sleep 10\n     job_status=$(databricks runs get --run-id $RUN_ID | jq -r '.state.life_cycle_state')\n     echo Status $job_status\n   done\n\n   RESULT=$(databricks runs get-output --run-id $RUN_ID)\n   databricks jobs delete --job-id $JOB_ID\n\n   RESULT_STATE=$(echo $RESULT | jq -r '.metadata.state.result_state')\n   RESULT_MESSAGE=$(echo $RESULT | jq -r '.metadata.state.state_message')\n   if [ $RESULT_STATE = \"FAILED\" ]\n   then\n     echo \"##vso[task.logissue type=error;]$RESULT_MESSAGE\"\n     echo \"##vso[task.complete result=Failed;done=true;]$RESULT_MESSAGE\"\n   fi\n\n   echo $RESULT | jq .  ",
+                                "workingDirectory": "",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": 1,
+                    "value": ""
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 15,
+                "url": "https://vsrm.dev.azure.com/ScholarNest/7c4ea18f-e663-4756-878a-8482b80c88d1/_apis/Release/releases/15",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 30,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {
+                "BoardsEnvironmentType": {
+                    "$type": "System.String",
+                    "$value": "unmapped"
+                },
+                "LinkBoardsWorkItems": {
+                    "$type": "System.String",
+                    "$value": "False"
+                }
+            },
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/ScholarNest/_apis/public/Release/badge/7c4ea18f-e663-4756-878a-8482b80c88d1/2/2"
+        }
+    ],
+    "artifacts": [
+        {
+            "sourceId": "7c4ea18f-e663-4756-878a-8482b80c88d1:11",
+            "type": "Build",
+            "alias": "_SBIT",
+            "definitionReference": {
+                "artifactSourceDefinitionUrl": {
+                    "id": "https://dev.azure.com/ScholarNest/_permalink/_build/index?collectionId=cadc489b-55c6-49ac-bb0f-faf9491dcea3&projectId=7c4ea18f-e663-4756-878a-8482b80c88d1&definitionId=11",
+                    "name": ""
+                },
+                "defaultVersionBranch": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionSpecific": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionTags": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionType": {
+                    "id": "latestType",
+                    "name": "Latest"
+                },
+                "definition": {
+                    "id": "11",
+                    "name": "SBIT"
+                },
+                "definitions": {
+                    "id": "",
+                    "name": ""
+                },
+                "IsMultiDefinitionType": {
+                    "id": "False",
+                    "name": "False"
+                },
+                "project": {
+                    "id": "7c4ea18f-e663-4756-878a-8482b80c88d1",
+                    "name": "SBIT"
+                },
+                "repository": {
+                    "id": "",
+                    "name": ""
+                }
+            },
+            "isPrimary": true,
+            "isRetained": false
+        }
+    ],
+    "triggers": [],
+    "releaseNameFormat": "Release-$(rev:r)",
+    "tags": [],
+    "properties": {
+        "DefinitionCreationSource": {
+            "$type": "System.String",
+            "$value": "ReleaseNew"
+        },
+        "IntegrateBoardsWorkItems": {
+            "$type": "System.String",
+            "$value": "False"
+        },
+        "IntegrateJiraWorkItems": {
+            "$type": "System.String",
+            "$value": "false"
+        }
+    },
+    "id": 2,
+    "name": "SBIT Deploy Pipeline",
+    "path": "\\",
+    "projectReference": null,
+    "url": "https://vsrm.dev.azure.com/ScholarNest/7c4ea18f-e663-4756-878a-8482b80c88d1/_apis/Release/definitions/2",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/ScholarNest/7c4ea18f-e663-4756-878a-8482b80c88d1/_apis/Release/definitions/2"
+        },
+        "web": {
+            "href": "https://dev.azure.com/ScholarNest/7c4ea18f-e663-4756-878a-8482b80c88d1/_release?definitionId=2"
+        }
+    }
+}

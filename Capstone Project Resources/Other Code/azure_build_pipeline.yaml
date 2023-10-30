@@ -1,0 +1,38 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - '*'
+
+pool:
+  vmImage: ubuntu-22.04
+
+steps:
+- task: UsePythonVersion@0
+  displayName: 'Use Python 3.10'
+  inputs:
+    versionSpec: 3.10
+
+- script: |
+    pip install pytest requests setuptools wheel
+  displayName: 'Load Python dependencies'
+
+- checkout: self
+  persistCredentials: true
+  clean: true
+
+- script: |    
+    cp $(Build.Repository.LocalPath)/*.* $(Build.BinariesDirectory)/
+  displayName: 'Get Changes'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    ArtifactName: 'DatabricksBuild'

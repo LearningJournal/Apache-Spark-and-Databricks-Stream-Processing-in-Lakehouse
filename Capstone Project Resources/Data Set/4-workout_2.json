@@ -1,0 +1,16 @@
+{"key":"14633","value":"{\"user_id\": 14633, \"workout_id\": 1, \"timestamp\": 1678608300.0, \"action\": \"start\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678608300}
+{"key":"14508","value":"{\"user_id\": 14508, \"workout_id\": 1, \"timestamp\": 1678608300.0, \"action\": \"start\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678608300}
+{"key":"13937","value":"{\"user_id\": 13937, \"workout_id\": 1, \"timestamp\": 1678608900.0, \"action\": \"start\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678608900}
+{"key":"14232","value":"{\"user_id\": 14232, \"workout_id\": 1, \"timestamp\": 1678609320.0, \"action\": \"start\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678609320}
+{"key":"15149","value":"{\"user_id\": 15149, \"workout_id\": 1, \"timestamp\": 1678610100.0, \"action\": \"start\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678610100}
+{"key":"14633","value":"{\"user_id\": 14633, \"workout_id\": 1, \"timestamp\": 1678610700.0, \"action\": \"stop\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678610700}
+{"key":"14508","value":"{\"user_id\": 14508, \"workout_id\": 1, \"timestamp\": 1678611300.0, \"action\": \"stop\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678611300}
+{"key":"13937","value":"{\"user_id\": 13937, \"workout_id\": 1, \"timestamp\": 1678611300.0, \"action\": \"stop\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678611300}
+{"key":"14232","value":"{\"user_id\": 14232, \"workout_id\": 1, \"timestamp\": 1678612080.0, \"action\": \"stop\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678612080}
+{"key":"15149","value":"{\"user_id\": 15149, \"workout_id\": 1, \"timestamp\": 1678613700.0, \"action\": \"stop\", \"session_id\": 1}","topic":"workout","partition":0,"offset":189902,"timestamp":1678613700}
+{"key":"14633","value":"{\"user_id\": 14633, \"workout_id\": 1, \"timestamp\": 1678644300.0, \"action\": \"start\", \"session_id\": 2}","topic":"workout","partition":0,"offset":189902,"timestamp":1678644300}
+{"key":"14508","value":"{\"user_id\": 14508, \"workout_id\": 1, \"timestamp\": 1678644900.0, \"action\": \"start\", \"session_id\": 2}","topic":"workout","partition":0,"offset":189902,"timestamp":1678644900}
+{"key":"13937","value":"{\"user_id\": 13937, \"workout_id\": 1, \"timestamp\": 1678645800.0, \"action\": \"start\", \"session_id\": 2}","topic":"workout","partition":0,"offset":189902,"timestamp":1678645800}
+{"key":"14633","value":"{\"user_id\": 14633, \"workout_id\": 1, \"timestamp\": 1678646100.0, \"action\": \"stop\", \"session_id\": 2}","topic":"workout","partition":0,"offset":189902,"timestamp":1678646100}
+{"key":"14508","value":"{\"user_id\": 14508, \"workout_id\": 1, \"timestamp\": 1678647000.0, \"action\": \"stop\", \"session_id\": 2}","topic":"workout","partition":0,"offset":189902,"timestamp":1678647000}
+{"key":"13937","value":"{\"user_id\": 13937, \"workout_id\": 1, \"timestamp\": 1678649400.0, \"action\": \"stop\", \"session_id\": 2}","topic":"workout","partition":0,"offset":189902,"timestamp":1678649400}

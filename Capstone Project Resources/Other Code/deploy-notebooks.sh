@@ -1,0 +1,1 @@
+databricks workspace import_dir --overwrite $(System.ArtifactsDirectory)/$(Release.PrimaryArtifactSourceAlias)/Databricks/ /Shared/
