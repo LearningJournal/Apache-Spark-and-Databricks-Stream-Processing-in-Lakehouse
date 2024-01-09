@@ -25,7 +25,7 @@ class batchWC():
     def overwriteWordCount(self, wordCountDF):
         ( wordCountDF.write
                     .format("delta")
-                    .mode("overwrite")
+                    .mode("append")
                     .saveAsTable("word_count_table")
         )
     
